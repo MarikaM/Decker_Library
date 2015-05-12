@@ -1,0 +1,526 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MICA Decker Library</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500,600,700,800,900' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Infusion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	
+
+</head>
+<body>
+<!-- header -->
+<div class="header">
+	<div class="header-left">
+		<a href="index.html"><img src="images/MICA_logo_sm_K.jpg" alt=""/></a>
+	</div>
+	<div class="header-right">
+		<span class="menu"><img src="images/menu.png" alt=""/></span>
+				<ul class="nav1">
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="Librarys.html">  Library Services </a></li>
+					<li><a href="about.html">About</a></li>	
+					<li><a href="404.html">Research Tools</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+				<!-- script for menu -->
+					<script> 
+						$( "span.menu" ).click(function() {
+						$( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						});
+						});
+					</script>
+				<!-- //script for menu -->
+
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!-- //header -->
+
+<!-- Search Box
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <div class="box">
+      <div class="container-1">
+          <input type="search" id="search" placeholder="Catalog Search..."/>
+          <button class="icon"><i class="fa fa-search fa-2x"></i></button>
+      </div>
+  </div>
+  
+<!-- banner -->
+<div class="banner">
+	<div class="container">
+		<div class="banner-info text-center">
+			<h1>SEARCH THE CATALOG</h1>
+
+			<div class="uparrow">
+				<img src="images/uparrow.png" alt=""/>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+  
+
+<!-- banner-bottom -->
+<div class="banner-bottom">
+	<div class="container">
+		<!-- responsiveslides -->
+					<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							 // Slideshow 4
+							$("#slider3").responsiveSlides({
+								auto: true,
+								pager: true,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+							$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+								}
+								});
+								});
+					</script>
+				<!-- responsiveslides -->
+		<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="bottom-grids">
+								<div class="bottom-grid">
+									<img src="images/b4.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3>Dress, fashion, and technology : from prehistory to the present </h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos a"></div>
+								</div>
+								<div class="bottom-grid">
+									<img src="images/b3.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3>Russia : a history</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos b"></div>
+								</div>
+								<div class="bottom-grid">
+									<img src="images/b2.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3> Little Roja Riding Hood</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos c"></div>
+								</div>
+								<div class="bottom-grid">
+									<img src="images/b1.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3>African fashion, global style : histories, innovations, and ideas you can wear </h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos d"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li>
+							<div class="bottom-grids">
+								<div class="bottom-grid">
+									<img src="images/b1.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3>SOS - Calling All Black People : a Black Arts  </h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos d"></div>
+								</div>
+								<div class="bottom-grid">
+									<img src="images/b2.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3>The backyard blacksmith : traditional techniques for the modern smith</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos c"></div>
+								</div>
+								<div class="bottom-grid">
+									<img src="images/b3.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3>The posthuman</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos b"></div>
+								</div>
+								<div class="bottom-grid">
+									<img src="images/b4.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3> Members only : secret societies, sects, and cults-- exposed!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos a"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li>
+							<div class="bottom-grids">
+								<div class="bottom-grid">
+									<img src="images/b4.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3>Lorem ipsum dolor sit amet consectetur </h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos d"></div>
+								</div>
+								<div class="bottom-grid">
+									<img src="images/b2.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3>Seven classical Chinese paintings</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos b"></div>
+								</div>
+								<div class="bottom-grid">
+									<img src="images/b1.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3>Alone Together : Why We Expect More from Technology and Less from Each Other</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos a"></div>
+								</div>
+								<div class="bottom-grid">
+									<img src="images/b3.jpg" alt=""/>
+									<div class="bottom-info">
+										<h3>The Sketchbook Project World Tour</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. </p>
+									</div>
+									<div class="bottom-pos c"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+					</ul>
+		</div>
+	</div>
+</div>
+<!-- //banner-bottom -->
+<!-- slider-bottom -->
+<div class="slider-bottom">
+	<div class="container">
+		<div class="slider-grids">
+			<div class="col-md-6 slider-grid">
+				<h3>Decker Library </h3>
+				<p>The Decker Library is the campus library of the Maryland Institute College of Art, located on the first floor and lower level of the Bunting Center. The library contains over 100,000 books and serials, over 5,000 DVDs and access to thousands of electronic journals through subscription databases and hundreds of print journal titles.Additionally, the library has access to over 100,ooo ebooks, over 40,000 digital images and over 1,000 streaming video titles all available through the library catalog. </p>
+				<a href="#" class="hvr-rectangle-in button">Sign In</a>
+				<a href="#" class="hvr-rectangle-out button">Register</a>
+			</div>
+			<div class="col-md-6 slider-grid">
+				<h3>Decker Library Catalog </h3>
+				<p class="para-text"> While the main focus of the library is the visual arts, the collection also includes a broad and balanced selection of academic and recreational material relating to many subjects.</p>
+				<p> The Decker Library Catalog is an up-to-date description of all the books, print journals, films/videos, images and other materials located within the Library. It includes circulating and reference materials as well as recently added materials (In Process, or New Book). The search engine includes a feature to select items of interest and to print, email, or save a list of such items.  To access the images collections please log-in using your MICA username and password.</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //slider-bottom -->
+<!-- article -->
+<div class="article">
+	<div class="container">
+		<h3>Latest Articles From Our Research Database</h3>
+	</div>
+</div>
+<!-- //article -->
+<!-- portfolio -->
+<div class="article-grids">
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p10.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p9.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p5.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p6.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p7.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p12.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p8.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p4.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p3.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p2.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p1.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="col-md-2 article-grid">
+		<a href="single.html"><img src="images/p11.jpg" alt=""/></a>
+		<div class="article-info">
+			<p>Gutful of bottlo no dramas he's got a massive hooroo</p>
+			<p>14th APril 2013<a href="single.html" class="plus"></a></p>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!-- //article -->
+
+<!-- portfolio -->
+
+			</div>	
+			
+		<!-- //pop-up-box -->			
+			<!-- Script for gallery Here -->
+				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+							$(function () {
+								var filterList = {
+									init: function () {
+										// MixItUp plugin
+										// http://mixitup.io
+										$('#portfoliolist').mixitup({
+											targetSelector: '.portfolio',
+											filterSelector: '.filter',
+											effects: ['fade'],
+											easing: 'snap',
+											// call the hover effect
+											onMixEnd: filterList.hoverEffect()
+										});				
+									},
+									hoverEffect: function () {
+									
+										// Simple parallax effect
+										$('#portfoliolist .portfolio').hover(
+											function () {
+												$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+												$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+											},
+											function () {
+												$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+												$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+											}		
+										);				
+									}
+								};
+								// Run the show!
+								filterList.init();
+							});	
+					</script>
+				<!-- Gallery Script Ends -->
+				<div class="clearfix"> </div>
+		</div>
+	
+</div>
+<!-- //portfolio -->
+<!-- slider -->
+<div class="second-slider">
+	<div class="container">
+		<!-- responsiveslides -->
+					<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							 // Slideshow 4
+							$("#slider4").responsiveSlides({
+								auto: true,
+								pager: true,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+							$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+								}
+								});
+								});
+					</script>
+				<!-- responsiveslides -->
+		<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider4">
+						<li>
+							<div class="sec-slid-info">
+								<img src="images/quotation.png" alt=""/>
+								<h3>The world breaks everyone, and afterward, some are strong at the broken places.</h3>
+								<img class="right" src="images/quotation2.png" alt=""/>
+								<p>Ernest Hemingway</p>
+							</div>
+						</li>
+						<li>
+							<div class="sec-slid-info">
+								<img src="images/quotation.png" alt=""/>
+								<h3>If you can tell stories, create characters, devise incidents, and have sincerity and passion, it doesn’t matter a damn how you write.</h3>
+								<img class="right" src="images/quotation2.png" alt=""/>
+								<p>Somerset Maugham</p>
+							</div>
+						</li>
+						<li>
+							<div class="sec-slid-info">
+								<img src="images/quotation.png" alt=""/>
+								<h3>There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for.</h3>
+								<img class="right" src="images/quotation2.png" alt=""/>
+								<p> Milton Glaser</p>
+							</div>
+						</li>
+					</ul>
+		</div>
+	</div>
+</div>	
+<!-- //slider -->
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<div class="footer-grids">
+			<div class="col-md-2 footer-grid logobtm">
+				<a href="index.html">Decker Library</a>
+			</div>
+			<div class="col-md-5 footer-grid">
+				<p>Intersession hours<br>
+    				May 9 - 24
+Mon-Fri 8:30am-4:30pm
+Closed weekends</br>
+Summer hours<br>
+May 26 - June 21
+Mon-Thu 8:30am-7pm
+Fri 8:30am-4:30pm
+Closed weekends
+June 22 - July 31
+Mon-Thu 8:30am-7pm
+Fri 8:30am-4:30pm
+Sun 10am-2pm
+(6/28, 7/12, 7/26)
+</p>
+			</div>
+			<div class="col-md-3 footer-grid">
+				<p>Circulation
+410.225.2272
+FAX 410.225.2316
+circ@mica.edu<br>
+Interlibrary Loan
+ill@mica.edu</p>
+			</div>
+			
+			<div class="clearfix"> </div>
+		</div>
+		<div class="copy-right">
+			<p>Copyright &copy; 2015 Decker.</a></p>
+		</div>
+	</div>
+</div>
+<!-- //footer -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+</body>
+</html>
